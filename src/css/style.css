@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.sobre {
+    background-color: #5BC241;
+    text-align: center;
+    height: 15px;
+    width: 50px;
+    border-radius: 4px;
+}
+
+.cadastro {
+    background-color: #5BC241;
+    border-radius: 4px;
+    width: 80px;
+    text-align: center;
+}
