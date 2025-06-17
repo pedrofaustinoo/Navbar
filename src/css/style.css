@@ -1,47 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
 
-.navbar {
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
-    background-color: white;
+    padding: 45px;
 }
 
-.logo {
+.logo{
     display: flex;
-    justify-content: center;
-    height: 40px;
-    margin: 10px;
+    align-items: center;
 }
 
-.navbar ul {
-    list-style: none;
-    font-size: 10px;
+.logo h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.navbar{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 15px;
-
+    align-items: center;
 }
 
-.navbar a {
-    text-decoration: none;
-    color: black;
-    font-family: "Kumbh Sans", sans-serif;
+.navbar li a{
+    padding: 20px;
+    transition: 0.3s ease-in-out;
 }
 
-.sobre {
-    background-color: #5BC241;
-    text-align: center;
-    height: 15px;
-    width: 50px;
-    border-radius: 4px;
+.navbar li a:hover{
+    background-color: #5bc241;
+    color: #ffffff;
 }
 
-.cadastro {
-    background-color: #5BC241;
-    border-radius: 4px;
-    width: 80px;
-    text-align: center;
+.navbar li a.btn {
+    background-color: #5bc241;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
 }

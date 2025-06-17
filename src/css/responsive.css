@@ -1,0 +1,28 @@
+@media(max-width: 1000px){
+   .header{
+    flex-direction: column;
+   }
+
+   .logo h1{
+    font-size:  40px;
+   }
+   
+   .navbar{
+    flex-direction: column;
+    margin-top: 40px;
+   }
+
+   .navbar li{
+    padding: 33px;
+   }
+
+   .navbar li a{
+    font-size: 40px;
+    padding: 17px 40px;
+   }
+
+   .navbar li a.btn{
+    font-size: 18px;
+    padding: 15px 23px;
+   }
+}
